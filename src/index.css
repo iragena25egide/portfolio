@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background: #b2cbfa46;
+}
+header{
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  background: #6f99e0;
+  justify-content: space-between;
+  font-family: 'poppins',sans-serif;
+  border-bottom: 0.1px solid #b2cbfa46;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+}
+header .left-header{
+  width: 40%;
+  padding: 10px;
+  
+}
+header .left-header h4{
+  font-size: 25px;
+  font-weight: 800;
+  color: #031430;
+}
+
+header .right-header{
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+}
+header .right-header small{
+  font-family: 'loto',sans-serif;
+  font-weight: 600;
+  color: #001740;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* intro */
+
+.intro{
+    padding: 40px 40px 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 0px 0px;
+}
+.intro .left-intro{
+  width: 40%;
+  padding: 80px;
+}
+.intro .left-intro p{
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #080705;
+}
+
+.intro .left-intro h2{
+  color: #7899D4;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.intro .left-intro small{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #080705;
+}
+
+.intro .left-intro .media{
+  padding: 10px;
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+.intro .right-intro{
+  width: 50%;
+}
+
+
+/* skills */
+.skills-container{
+    padding: 40px 40px 80px 40px;
+    background: white;
+}
+.skills-container .content{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 30px;
+}
+
+/* contact */
+
+.contact{
+  padding: 40px 40px 0px 40px;
+  background: #b2cbfa46;
+}
+.contact h4{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  padding: 40px;
+}
+.contact .location{
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  height: 40px;
+
+}
+.contact .phone{
+  display: flex;
+  height: 40px;
+  display: flex;
+ 
+}
+.contact .email{
+  display: flex;
+}
+
+.copy{
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+  height: 40px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.copy p{
+  color: #6f99e0;
+}
