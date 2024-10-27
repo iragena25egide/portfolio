@@ -18,7 +18,7 @@ function Skills(){
             <div className="content">
             <FaHtml5 size={100} title="HTML" style={{color:'#700548'}}/>
             <FaCss3Alt size={100}  title="CSS" style={{color:'#0258ED'}}/>
-            <IoLogoJavascript size={100}/>
+            <IoLogoJavascript size={100} title="JAVA SCRIPT"/>
             <RiTailwindCssFill size={100} title="TAILWIND" style={{color:'#0258ED'}}/>
             <SiExpress size={100} title="EXPRESS"/>
             <FaNodeJs size={100} title="NODE" style={{color:'green'}}/>
