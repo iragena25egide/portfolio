@@ -10,16 +10,16 @@ function Contact(){
             <h4>Contacts</h4>
 
             <div className="location">
-            <FaLocationDot size={25} style={{color:'green',color:'#0a56d8'}}/>
-            <small style={{fontFamily:'sans-serif',fontSize:'16px',color:'#0a56d8'}}>Ngororero - Rwanda</small>
+            <FaLocationDot id="img" style={{color:'green',color:'#0a56d8'}}/>
+            <small style={{fontFamily:'sans-serif',fontSize:'12px',color:'#0a56d8'}}>Ngororero - Rwanda</small>
             </div>
             <div className="phone">
-            <MdOutlinePhoneAndroid size={25} style={{color:'green',color:'#0a56d8'}}/>
-            <small style={{fontFamily:'sans-serif',fontSize:'16px',margin:'0px 0px 0px 13px',color:'#0a56d8'}}>0798555420</small>
+            <MdOutlinePhoneAndroid id="img" style={{color:'green',color:'#0a56d8'}}/>
+            <small style={{fontFamily:'sans-serif',fontSize:'12px',margin:'0px 0px 0px 13px',color:'#0a56d8'}}>0798555420</small>
             </div>
             <div className="email">
-            <MdEmail size={25} style={{color:'green',color:'#0a56d8'}}/>
-            <small style={{fontFamily:'sans-serif',fontSize:'16px',margin:'0px 0px 0px 13px',color:'#0a56d8'}}>iragenaegide205@gmail.com</small>
+            <MdEmail id="img" style={{color:'green',color:'#0a56d8'}}/>
+            <small style={{fontFamily:'sans-serif',fontSize:'12px',margin:'0px 0px 0px 13px',color:'#0a56d8'}}>iragenaegide205@gmail.com</small>
             </div>
 
             <div className="copy">

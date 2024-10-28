@@ -14,20 +14,20 @@ import { FaGitSquare } from "react-icons/fa";
 function Skills(){
     return(
         <div className="skills-container">
-                <h2 style={{fontSize:'40px',fontFamily:'sans-serif',textAlign:'center'}}>My Skills</h2>
+                <h2>My Skills</h2>
             <div className="content">
-            <FaHtml5 size={100} title="HTML" style={{color:'#700548'}}/>
-            <FaCss3Alt size={100}  title="CSS" style={{color:'#0258ED'}}/>
-            <IoLogoJavascript size={100} title="JAVA SCRIPT"/>
-            <RiTailwindCssFill size={100} title="TAILWIND" style={{color:'#0258ED'}}/>
-            <SiExpress size={100} title="EXPRESS"/>
-            <FaNodeJs size={100} title="NODE" style={{color:'green'}}/>
+            <FaHtml5 id="icon" title="HTML" style={{color:'#700548'}}/>
+            <FaCss3Alt id="icon"  title="CSS" style={{color:'#0258ED'}}/>
+            <IoLogoJavascript id="icon" title="JAVA SCRIPT"/>
+            <RiTailwindCssFill id="icon" title="TAILWIND" style={{color:'#0258ED'}}/>
+            <SiExpress id="icon" title="EXPRESS"/>
+            <FaNodeJs id="icon" title="NODE" style={{color:'green'}}/>
             
-            <FaReact size={100} title="REACT" style={{color:'#012768'}}/>
-            <TbBrandMysql size={100} title="MYSQL"/>
-            <BiLogoPostgresql size={100} title="POSTGRESQL" style={{color:'#012768'}}/>
-            <DiMongodb size={100} title="MONGODB" style={{color:'green'}}/>
-            <FaGitSquare size={100} title="GIT" style={{color:'#A90101'}}/>
+            <FaReact id="icon" title="REACT" style={{color:'#012768'}}/>
+            <TbBrandMysql id="icon" title="MYSQL"/>
+            <BiLogoPostgresql id="icon" title="POSTGRESQL" style={{color:'#012768'}}/>
+            <DiMongodb id="icon" title="MONGODB" style={{color:'green'}}/>
+            <FaGitSquare id="icon" title="GIT" style={{color:'#A90101'}}/>
 
            
             </div>

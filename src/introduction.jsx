@@ -36,7 +36,7 @@ function Introduction(){
                 </div>
             </div>
             <div className="right-intro">
-                <img src="profile.png" style={{width:'80%',height:'500px',borderRadius:'20px'}} />
+                <img src="profile.png"  />
             </div>
         </div>
     )
